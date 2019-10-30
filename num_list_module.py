@@ -3,11 +3,15 @@ list = [1,2,3,4,5,6,7,8,9]
 
 def backwardslist(array):
     print('Malachy')
-    return array[-1::-1]
-print(backwardslist(list))
+    print(array[-1::-1])
 
 def min(array):
-    """ Returns the lowest number in an list of numbers"""
+    min = array[1]
+    print('Malachy')
+    for i in array:
+        if i <= min:
+            min = i
+    print(min)
 
 def firsthalfsum(array):
     """Returns the sum of the first half of the list.
