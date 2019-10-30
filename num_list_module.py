@@ -32,9 +32,8 @@ def divisibleby(array, divisor):
             array2.append(i)
     print(array2)
 
-
-
 def max(array):
+    
     """ Returns the highest number in a list of numbers """
 
 def avg(array):
