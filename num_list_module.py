@@ -1,6 +1,11 @@
 
 list = [1,2,3,4,5,6,7,8,9]
 
+def Helloworld():
+    print('S\'up World, Malachy here')
+
+
+
 def backwardslist(array):
     print('Malachy')
     print(array[-1::-1])
@@ -14,12 +19,19 @@ def min(array):
     print(min)
 
 def firsthalfsum(array):
-    """Returns the sum of the first half of the list.
-        ***IF THE LIST HAS AN ODD NUMBER OF ELEMENTS, split the middle element in
-        half and add it to the sum.
-        """
+    length_half = len(array)//2
+    half_bit = 0.5*(array[length_half])
+    sum_half = sum(array[0:length_half]) + half_bit
+    print(sum_half)
+
 
 def divisibleby(array, divisor):
+    array2 = []
+    for i in array:
+        if i % divisor ==0:
+            array2.append()
+    print(array2)
+
     """ Returns each element divisible by the paramater 'divisor'
 
     """
