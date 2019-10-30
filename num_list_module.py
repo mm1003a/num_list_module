@@ -29,12 +29,10 @@ def divisibleby(array, divisor):
     array2 = []
     for i in array:
         if i % divisor ==0:
-            array2.append()
+            array2.append(i)
     print(array2)
 
-    """ Returns each element divisible by the paramater 'divisor'
 
-    """
 
 def max(array):
     """ Returns the highest number in a list of numbers """

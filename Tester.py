@@ -9,3 +9,4 @@ num_list_module.min(list)
 num_list_module.firsthalfsum(list)
 
 '''
+num_list_module.divisibleby(list,2)
